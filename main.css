@@ -1,0 +1,150 @@
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    color: #5695FF;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+body{
+font-family: 'Montserrat', sans-serif;    
+background:#fff;
+text-align:center;
+padding: 20px;
+font-size:  20wv;
+
+
+}
+
+a{
+text-decoration: none;
+color:#666;
+}
+a:hover{
+color:#FF9E56;
+}
+p{
+line-height: 3em;
+margin:0 0 20px;
+text-align: center;
+font-size: 20vw;
+font-family: 'Montserrat', sans-serif;  
+
+
+}
+
+.wrap{
+max-width: 600px;
+margin:150px auto;
+}
+
+.type-wrap{
+margin:10px auto;
+padding:20px;
+background:#f0f0f0;
+border-radius:5px;
+border:#CCC 1px solid;
+}
+
+.links{
+margin:20px 0;
+font-size: 0.75em;
+text-align: center;
+}
+
+.center-image{
+text-align: center;
+width: 50%;
+max-width: 300px;
+padding-bottom: 10px;
+z-index: 100;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 10px;
+
+}
+
+
+
+.main{
+padding:0px;
+font-family: 'Montserrat', sans-serif;
+font-size: 80%;
+padding-top: 50px;
+
+
+}
+
+#content{
+padding: 30px;
+font-size: 100%;
+font-family: 'Montserrat', sans-serif;
+line-height: 1.7em;
+text-align: left;
+max-width: 600px;
+vertical-align: middle;
+margin:0 auto; 
+
+
+
+
+}
+
+#coffee{ 
+font-size: 7px; 
+max-width: 80px;
+margin:0 auto;
+padding-right: 120px;}
+
+.links{
+margin:20px 0;
+font-size: 0.75em;
+text-align: center;
+}
+
+
+a{  position: relative;
+color: inherit;
+-webkit-transition: color 200ms ease-out,border 200ms ease-out;
+transition: color 200ms ease-out,border 200ms ease-out;
+color: inherit;
+font-weight: 800;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+
